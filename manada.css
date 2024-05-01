@@ -1,0 +1,156 @@
+body{
+
+  background-image: url(imagenes/selva.png);
+  background-size: cover;
+  background-position: center;
+}
+ .login{
+  overflow:hidden;
+  background: #f2f2f2;
+  box-shadow: 10px 10px 5px #171717;
+  border: 3px solid #171717;
+  background-color: rgba(64, 141, 80, 0.7); /* Fondo transparente */
+  border-radius: 1%;
+}
+.loginHeader{
+  width: 100%;
+  font-family: 'Comic-Sans',sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #c0e756;
+  background-color: rgba(64, 141, 80, 0.8); /* Fondo transparente */
+  box-shadow: 5px 4px 5px #171717;
+  border: 3px solid #171717;
+  border-radius: 30px;
+  filter: drop-shadow(1px 3px 5px #171717); 
+}
+
+.login .foto{
+     border:  3px solid #171717;
+     border-radius: 10px;
+}
+
+.login .formulario .btn{
+    width: 400px;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.login .formulario .btn{
+    padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #f2f2f2;
+  background-color: rgb(117, 120, 9);
+  border: 1px solid #171717;
+  border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.login .formulario .btn:hover{
+    background-color: #4e9ad8;
+  box-shadow: 10px 15px 20px #171717;
+  color: rgb(0, 0, 0);
+  transform: translateY(-7px);
+}
+.login .formulario button:active {
+    transform: translateY(-1px);
+  }
+
+  #olvContraseña{
+    color: #c0e756;
+    font-family: 'Comic-Sans',sans-serif;
+    font-size: 18px;
+  }
+  #olvContraseña:hover{
+      transform: translateY(-7px);
+      color:rgb(8, 100, 28);
+      transition: all 0.5s ease 0s;
+      text-decoration-color:rgb(70, 65, 65);
+  }
+  #olvContraseña:active{
+    transform: translateY(1px);
+  }
+
+  /* Main.html */
+  .header .titulo{
+    width: 100%;
+    font-family: 'Comic-Sans',sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #c0e756;
+    background-color: rgba(64, 141, 80, 0.8); /* Fondo transparente */
+    box-shadow: 5px 4px 5px #171717;
+    border: 3px solid #171717;
+    border-radius: 30px;
+    filter: drop-shadow(1px 3px 5px #171717);
+  }
+  .contenedorMain {
+    overflow:hidden;
+    background: #f2f2f2;
+    box-shadow: 10px 10px 5px #171717;
+    border: 3px solid #171717;
+    background-color: rgba(64, 141, 80, 0.7); /* Fondo transparente */
+    border-radius: 1%;
+  }
+  
+  #image {
+    width: 350px;
+    height: 260px;
+    transition: transform 0.3s ease; /* Agrega una transición para un efecto suave */
+  }
+  #image2 {
+    width: 350px;
+    height: 260px;
+    transition: transform 0.3s ease-in; /* Agrega una transición para un efecto suave */
+  }
+
+  .container .img{
+    margin: 30px; 
+    border: 3px solid #171717;
+    background-color: #377a50; 
+    padding: 10px; 
+  }
+  .container .imgTexto{
+    font-family: 'Open-Sans',sans-serif;
+    font-size: 30px;
+    color: #c0e756;
+    filter: drop-shadow(1px 3px 5px #171717);
+  }
+
+  
+  .hover {
+    transform: scaleX(-1);
+  }
+  
+  /* #masInfo{
+    font-family: 'Comic-Sans',sans-serif;
+    margin-bottom: 13px;
+    background: #377a50;
+    color: #c0e756;
+    filter: drop-shadow(1px 1px #171717);
+    font-size: 17px;
+    outline: 1px solid #171717;
+    padding: 3px;
+  }
+
+  #masInfo:hover{
+    transform: translate(-1px, -1px);
+    box-shadow: 2px 2px 3px #171717;
+    color: #000000;
+    background: #429460;
+  } */
+  
