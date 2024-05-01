@@ -29,7 +29,7 @@ function VerificarContraseña() {
   var contraseñaIngresada = contraseñaInput.value;
   var mensajeError = document.getElementById('mensajeError')
   if (contraseñaIngresada === "manada1234") {
-      window.location.href = "Index.html";
+      window.location.href = "Main.html";
   } else {
       contraseñaInput.classList.add("is-invalid");
       mensajeError.classList.remove("d-none");
